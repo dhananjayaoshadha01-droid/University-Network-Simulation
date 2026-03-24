@@ -1,13 +1,48 @@
-🌐 University Department Network Simulation
-This project is a comprehensive network design for a university department using **Cisco Packet Tracer**.
+# 🌐 University Department Network Simulation 🎓
 
- 🚀 Key Features:
-* VLAN Segmentation:** Admin, IT Lab, Study Area (Library), and Lecture Hall.
-* Inter-VLAN Routing:** Configured on Router 2 for seamless communication.
-* Wireless Connectivity:** Implementation of Access Points for the Library area.
-* Services:** Centralized Server in the IT Lab (DHCP & Web services).
+This project is a comprehensive network design and simulation for a University Department, developed using **Cisco Packet Tracer**. It focuses on creating a secure, scalable, and efficient infrastructure.
 
- 🛠️ Technologies Used:
-* Cisco Packet Tracer
-* Networking Protocols (IPv4, VLANs, Trunking, SVI)
-* Hardware Modules (HWIC-4ESW, WMP300N)
+---
+
+## 📸 Network Visualization
+
+### 1️⃣ Full Network Topology
+This is the complete architecture of the department, connecting all sections through a central routing system.
+![Full Network Topology](./fullnet.png)
+
+### 2️⃣ IT Laboratory Setup
+A closer look at the IT Lab configuration, which houses the department's central server.
+![IT Lab Setup](./lab.png)
+
+### 3️⃣ Connectivity Testing (Ping Results)
+Verification of the network's functionality. This shows successful communication between a client PC and the Central Server.
+![Ping Test Result](./ping.png)
+
+---
+
+## 🚀 Project Overview
+The simulation represents a modern campus network with specialized zones for different academic and administrative activities.
+
+### 🏢 Network Sections:
+* **Admin Office (VLAN 10):** Secure wired network for administrative staff.
+* **IT Lab (VLAN 20):** High-performance network featuring a **Centralized Server** (`192.168.1.5`).
+* **Study Area / Library (VLAN 30):** Wireless Connectivity for student laptops via Access Points.
+* **Lecture Hall (VLAN 40):** Dedicated network for multimedia and teaching equipment.
+
+---
+
+## 🛠️ Technical Implementation
+* **Inter-VLAN Routing:** Enabled via **Router 2** using sub-interfaces for efficient traffic flow.
+* **Wireless Networking:** Implemented using **WMP300N** cards and Access Points.
+* **Network Expansion:** Used **HWIC-4ESW** modules to overcome hardware port limitations.
+* **Services:** Fully functional **DHCP** for automated IP management.
+
+---
+
+## 👨‍💻 Developer
+**Oshadha Dhananjaya** *BICT Undergraduate | Faculty of Technology* *Rajarata University of Sri Lanka*
+
+---
+
+### 🛡️ License
+Educational purpose only. Feel free to use this as a reference for your networking projects!
