@@ -8,7 +8,7 @@ This project is a comprehensive network design and simulation for a University D
 
 ### 1️⃣ Full Network Topology
 This is the complete architecture of the department, connecting all sections through a central routing system.  
-![Full Network Topology](./full.jpg)
+![Full Network Topology](./full1.jpg)
 
 ### 2️⃣ IT Laboratory Setup
 A closer look at the IT Lab configuration, which houses the department's central server.  
