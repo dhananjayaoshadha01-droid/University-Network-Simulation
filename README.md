@@ -7,15 +7,15 @@ This project is a comprehensive network design and simulation for a University D
 ## 📸 Network Visualization
 
 ### 1️⃣ Full Network Topology
-This is the complete architecture of the department, connecting all sections through a central routing system.
-![Full Network Topology](./full.PNG)
+This is the complete architecture of the department, connecting all sections through a central routing system.  
+![Full Network Topology](./full.png)
 
 ### 2️⃣ IT Laboratory Setup
-A closer look at the IT Lab configuration, which houses the department's central server.
+A closer look at the IT Lab configuration, which houses the department's central server.  
 ![IT Lab Setup](./lab.png)
 
 ### 3️⃣ Connectivity Testing (Ping Results)
-Verification of the network's functionality. This shows successful communication between a client PC and the Central Server.
+Verification of the network's functionality. This shows successful communication between a client PC and the Central Server.  
 ![Ping Test Result](./ping.png)
 
 ---
@@ -44,5 +44,5 @@ The simulation represents a modern campus network with specialized zones for dif
 
 ---
 
-### 🛡️ License
+## 🛡️ License
 Educational purpose only. Feel free to use this as a reference for your networking projects!
